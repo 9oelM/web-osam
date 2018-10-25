@@ -1,0 +1,36 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "server": "node ./src/server.js"
+  },
+  "dependencies": {
+    "@lkmadushan/vue-tuicalendar": "^0.1.6",
+    "css-element-queries": "^1.0.5",
+    "element-ui": "^2.4.5",
+    "express": "^4.16.4",
+    "shortid": "^2.2.13",
+    "socket.io": "^2.1.1",
+    "socket.io-client": "^2.1.1",
+    "tui-calendar": "^1.7.0",
+    "tui-editor": "^1.2.6",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vue2-editor": "^2.6.6",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "@vue/eslint-config-prettier": "^3.0.5",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-cli-plugin-element": "^1.0.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
