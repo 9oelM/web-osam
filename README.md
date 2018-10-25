@@ -1,5 +1,11 @@
 # Mili&Work: 효율적인 전투!
+## 읽기 전에
+번들 사이즈가 커서 `npm run serve`를 하면 처음 로딩 속도가 느릴 수도 있습니다. 기다려주세요.
+느린 네트워크 환경(군대 안 등)에서는 아예 로딩이 되지 않는 경우도 발생합니다.
 
+**만약 '메신저' 기능이 제대로 동작하지 않는다면 `src/dev.js`에 `dev.back`을`https://web-zunfmijhin.now.sh`로 바꿔주세요. 꼭!!!!**
+
+아니면 깃헙 링크도 있습니다: [https://github.com/9oelM/web-osam](https://github.com/9oelM/web-osam)
 ## 개요
 
 ### 불편한 점

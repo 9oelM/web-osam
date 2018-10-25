@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+	"serve": "concurrently 'npm run vueserve' 'npm run server'",
+    "vueserve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "server": "node ./src/server.js"
@@ -28,6 +29,7 @@
     "@vue/cli-plugin-eslint": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
     "@vue/eslint-config-prettier": "^3.0.5",
+    "concurrently": "^4.0.1",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "vue-cli-plugin-element": "^1.0.0",
