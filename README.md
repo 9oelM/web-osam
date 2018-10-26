@@ -1,11 +1,14 @@
 # Mili&Work: 효율적인 전투!
-## 읽기 전에
-번들 사이즈가 커서 `npm run serve`를 하면 처음 로딩 속도가 느릴 수도 있습니다. 기다려주세요.
-느린 네트워크 환경(군대 안 등)에서는 아예 로딩이 되지 않는 경우도 발생합니다.
 
-**만약 '메신저' 기능이 제대로 동작하지 않는다면 `src/dev.js`에 `dev.back`을`https://web-zunfmijhin.now.sh`로 바꿔주세요. 꼭!!!!**
+# 기본 설명
+* 소속: 해군 1함대 지휘통신대대 정보통신중대 상병 문혁주입니다. 
+* 
 
-아니면 깃헙 링크도 있습니다: [https://github.com/9oelM/web-osam](https://github.com/9oelM/web-osam)
+## 데모
+### 바로 보고 싶을 때
+* **프론트**: netlify를 사용하여 public URL에 올려놓았습니다. 이 링크에 들어가주세요: [https://ecstatic-pare-7b8792.netlify.com](https://ecstatic-pare-7b8792.netlify.com)
+* **백엔드**: 간단한 노드 서버입니다. now.sh를 사용하여 이 또한 public URL에 올려놓았습니다. 메신저 기능을 사용하면서 서버가 메시지를 어떻게 읽고 있는지 확인하고 싶으시다면 이 링크에 접속해 주세요: [https://zeit.co/joelmun/web/zunfmijhin](https://zeit.co/joelmun/web/zunfmijhin)
+
 ## 개요
 
 ### 불편한 점
@@ -18,8 +21,7 @@
 ### 개선안
 그래서 위에 말씀드린 기능을 한 곳에 모두 가지고 있는 웹 앱을 만들고 싶었습니다. 그게 바로 **Mili&Work**입니다!
 
-
-## 데모
+### 직접 설치해서 할 때
 메신저용 서버가 있어야 해서 정적인 웹페이지로는 완벽한 데모를 보여드릴 수가 없습니다. 다운받은 후 `localhost`에서 실행하시기 바랍니다. 
 
 1. `git clone`으로 respository를 복사해 주세요.
