@@ -29,6 +29,8 @@
 * 향후 계획: [now.sh](now.sh)에 올라가 있는 백엔드 서버에 MongoDB를 추가하고 데이터 저장소도 클라우드를 사용하여 데이터가 저장될 수 있도록 할 계획입니다. 프론트는 완성도가 높아 대시보드 부분에 "오늘 날씨" 나 "금일 함대 전력사용량"이나 "금일 함대 공지사항" 같은 추가 가능한 유용한 카드를 만들려고 합니다. [Electron](https://electronjs.org)을 사용하여 데스크탑 앱으로 만들 계획도 세우고 있습니다. 데스크탑 앱으로 접근이 가능하다면 업무를 하려면 무조건 브라우저를 켜서 어딘가에 접속해야 하는 군 인트라넷 특성상 훨씬 편리할 것입니다. 
 
 ## 데모
+구름 IDE를 보지 마세요!!!!!! 제가 올려놓은 링크를 봐 주세요. 아마 구름으로 하면 느려서 안 될지도 몰라요. 된다면 다행이지만... 시도해보시겠다면 [직접 설치해서 할 때](#직접-설치해서-할-때)를 시도해주세요.
+
 ### 바로 보고 싶을 때
 * **프론트**: netlify를 사용하여 public URL에 올려놓았습니다. 이 링크에 들어가주세요: [https://ecstatic-pare-7b8792.netlify.com](https://ecstatic-pare-7b8792.netlify.com)
 * **백엔드**: 간단한 노드 서버입니다. now.sh를 사용하여 이 또한 public URL에 올려놓았습니다. 메신저 기능을 사용하면서 서버가 메시지를 어떻게 읽고 있는지 확인하고 싶으시다면 이 링크에 접속해 주세요: [https://zeit.co/joelmun/web/zunfmijhin](https://zeit.co/joelmun/web/zunfmijhin)
@@ -152,6 +154,6 @@ $ npm run serve
 ![responsive](https://raw.githubusercontent.com/9oelM/o/master/docs/resp.gif)
 
 ### 기타 
-[zeit.co](https://zeit.co)의 [now-cli]를 사용하여 올라간 제 [node 서버](https://zeit.co/joelmun/web/zunfmijhin)를 구경해주세요! 메신저 기능을 사용하면 실시간으로 로그가 뜬답니다. 
+[zeit.co](https://zeit.co)의 [now-cli](https://github.com/zeit/now-cli)를 사용하여 올라간 제 [node 서버](https://zeit.co/joelmun/web/zunfmijhin)를 구경해주세요! 메신저 기능을 사용하면 실시간으로 로그가 뜬답니다. 
 
-![server](https://raw.githubusercontent.com/9oelM/o/master/docs/server.gif)
+![server](https://github.com/9oelM/web-osam/blob/master/docs/server.gif?raw=true)
