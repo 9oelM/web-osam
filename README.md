@@ -31,6 +31,7 @@
 ### 바로 보고 싶을 때
 * **프론트**: netlify를 사용하여 public URL에 올려놓았습니다. 이 링크에 들어가주세요: [https://ecstatic-pare-7b8792.netlify.com](https://ecstatic-pare-7b8792.netlify.com)
 * **백엔드**: 간단한 노드 서버입니다. now.sh를 사용하여 이 또한 public URL에 올려놓았습니다. 메신저 기능을 사용하면서 서버가 메시지를 어떻게 읽고 있는지 확인하고 싶으시다면 이 링크에 접속해 주세요: [https://zeit.co/joelmun/web/zunfmijhin](https://zeit.co/joelmun/web/zunfmijhin)
+* 소스: [깃헙에 올려놓았습니다.](https://github.com/9oelM/web-osam) 
 
 ### 직접 설치해서 할 때
 메신저용 서버가 있어야 해서 정적인 웹페이지로는 완벽한 데모를 보여드릴 수가 없습니다. 다운받은 후 `localhost`에서 실행하시기 바랍니다. 
