@@ -15,6 +15,7 @@
          * [메신저](#메신저)
          * [노트](#노트)
          * [반응형](#반응형)
+		 * [기타](#기타)
 
 ## 기본 설명
 * 소속: 해군 1함대 지휘통신대대 정보통신중대 
@@ -146,6 +147,11 @@ $ npm run serve
 ![note3](https://raw.githubusercontent.com/9oelM/o/master/docs/note3.gif)
 
 ### 반응형
-스크린 사이즈를 줄여도 사용에 어려움이 없도록 제작했습니다. 심지어 휴대폰으로 접속해도 상위 내비게이션의 사용자 정보만 약간 가리게 되고, 거의 모든 기능을 동일하게 문제없이 사용하실 수 있습니다.
+스크린 사이즈를 줄여도 사용에 어려움이 없도록 제작했습니다. **심지어 휴대폰으로 접속해도** 상위 내비게이션의 사용자 정보만 약간 가리게 되고, 거의 모든 기능을 동일하게 문제없이 사용하실 수 있습니다. 여러 업무를 한 번에 처리해야 해서 스크린을 분할할 일이 많은 군대에서 꼭 필요한 기능이라고 생각합니다. 
 
 ![responsive](https://raw.githubusercontent.com/9oelM/o/master/docs/resp.gif)
+
+### 기타 
+[zeit.co](https://zeit.co)의 [now-cli]를 사용하여 올라간 제 [node 서버](https://zeit.co/joelmun/web/zunfmijhin)를 구경해주세요! 메신저 기능을 사용하면 실시간으로 로그가 뜬답니다. 
+
+![server](https://raw.githubusercontent.com/9oelM/o/master/docs/server.gif)
