@@ -88,14 +88,14 @@ $ npm run serve
     * 군번: `length`가 0 이상인 스트링(`String`) 
     * 비밀번호: `length`가 0 이상인 스트링(`String`) (거의 아무거나 넣고 로그인하시면 됩니다.)
 
-![Login](https://raw.githubusercontent.com/9oelM/o/master/docs/login.gif)
+![Login](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/login.gif)
 
 위에 나와있는대로 로그인하지 않으면 로그인 에러 메시지가 보이게 됩니다. 
 
 ### 대시보드
 로그인하고 나서 사용자는 `/dashboard`로 redirect되게 됩니다. 
 
-![Dashboard](https://raw.githubusercontent.com/9oelM/o/master/docs/dashboard.gif)
+![Dashboard](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/dashboard.gif)
 
 대시보드는 간단하게 사용자와 관련된 정보를 보여줍니다. 
 
@@ -114,18 +114,18 @@ $ npm run serve
 ### 일정
 일정이 미리 설정되있지 않아 일정이 컴포넌트 렌더 시에 특정 조건에 따라 랜덤으로 설정되게 됩니다.(`src/assets/sampleSchedules.js`). 
 
-![cal1](https://raw.githubusercontent.com/9oelM/o/master/docs/cal1.gif)
+![cal1](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/cal1.gif)
 
 일정을 만들고, 
 
-![cal2](https://raw.githubusercontent.com/9oelM/o/master/docs/cal2.gif)
+![cal2](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/cal2.gif)
 
 일정을 고칠 수 있습니다. 
 
-![cal3](https://raw.githubusercontent.com/9oelM/o/master/docs/cal3.gif)
+![cal3](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/cal3.gif)
 일정을 월간, 주간, 일간 단위로 살펴 볼 수 있습니다.  
 
-![cal4](https://raw.githubusercontent.com/9oelM/o/master/docs/cal4.gif)
+![cal4](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/cal4.gif)
 ### 메신저
 메신저는 `socket.io`를 사용해 구현해 보았습니다. 
 
@@ -133,25 +133,25 @@ $ npm run serve
 
 서버가 제대로 구동되고 있다면, `localhost:8080`에 2개의 다른 탭으로 접속하여 다른 계정으로 로그인 할 시 `지휘통신대대 채팅방`(맨 위 채팅방)에서 채팅을 시험해 볼 수 있습니다. 
 
-![msg1](https://raw.githubusercontent.com/9oelM/o/master/docs/msg1.gif)
+![msg1](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/msg1.gif)
 
-![msg2](https://raw.githubusercontent.com/9oelM/o/master/docs/msg2.gif)
+![msg2](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/msg2.gif)
 
 ### 노트 
 노트를 적을 수 있습니다. 테이블, 이미지 삽입이 가능하고, 군대에서 많이 사용하는 엑셀(한셀)로부터 데이터를 복사해올 수 있습니다. 
 
-![note1](https://raw.githubusercontent.com/9oelM/o/master/docs/note1.gif)
+![note1](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/note1.gif)
 
-![note2](https://raw.githubusercontent.com/9oelM/o/master/docs/note2.gif)
+![note2](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/note2.gif)
 
 또, 마크다운 형식을 지원합니다.
 
-![note3](https://raw.githubusercontent.com/9oelM/o/master/docs/note3.gif)
+![note3](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/note3.gif)
 
 ### 반응형
 스크린 사이즈를 줄여도 사용에 어려움이 없도록 제작했습니다. **심지어 휴대폰으로 접속해도** 상위 내비게이션의 사용자 정보만 약간 가리게 되고, 거의 모든 기능을 동일하게 문제없이 사용하실 수 있습니다. 여러 업무를 한 번에 처리해야 해서 스크린을 분할할 일이 많은 군대에서 꼭 필요한 기능이라고 생각합니다. 
 
-![responsive](https://raw.githubusercontent.com/9oelM/o/master/docs/resp.gif)
+![responsive](https://raw.githubusercontent.com/9oelM/web-osam/master/docs/resp.gif)
 
 ### 기타 
 [zeit.co](https://zeit.co)의 [now-cli](https://github.com/zeit/now-cli)를 사용하여 올라간 제 [node 서버](https://zeit.co/joelmun/web/zunfmijhin)를 구경해주세요! 메신저 기능을 사용하면 실시간으로 로그가 뜬답니다. 
